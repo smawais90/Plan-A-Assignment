@@ -1,0 +1,12 @@
+
+{
+  "signIn": {
+    "username": "ivf",
+    "password": "Demoqa@12"
+  },
+  "bookData": {
+    "publisher" : "O'Reilly Media",
+    "author": "Axel Rauschmayer",
+    "bookName": "Speaking JavaScript"
+  }
+}

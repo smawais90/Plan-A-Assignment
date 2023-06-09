@@ -1,0 +1,9 @@
+{
+    "search-box": "#searchBox",
+    "table-body": ".rt-tbody",
+    "book-row": ".mr-2",
+    "side-bar": ".menu-list",
+    "profile": "#item-3",
+    "collection-row": ".rt-tr-group"
+
+}
