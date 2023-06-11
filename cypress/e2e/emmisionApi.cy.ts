@@ -21,7 +21,7 @@ describe('emission api test cases', () => {
       }).then((resp) => {
           expect(resp.status).to.eq(200);
           const statistics = resp.body;
-          if(statistics == null) {
+          if(statistics.length ==0 ) {
             return
           }
           else{

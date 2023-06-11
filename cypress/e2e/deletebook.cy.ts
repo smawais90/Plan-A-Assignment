@@ -6,7 +6,8 @@ describe('Delete books from collection', () => {
     cy.get('.menu-list').eq(5).within(() => {
         cy.get('#item-3').click()
     })
-        cy.contains('Delete All Books').click();
+    //We can put conditional testing here but here we dont have element in the dom ".rt-noData" on which we will apply condition. 
+      cy.contains('Delete All Books').click();
       cy.get('.modal-dialog').find('#closeSmallModal-ok').click();
       cy.get('.rt-noData').should('be.visible');
     });
